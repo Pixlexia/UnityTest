@@ -111,7 +111,7 @@ public class Enemy : Attackable {
 	public virtual void FollowPlayer(){
 		float mod = (dir > 0) ? 1 : -1;
 
-		rigidbody2D.AddRelativeForce(new Vector2(mod * speed, 0));
+		rigidbody2D.AddForce(new Vector2(mod * speed, 0));
 	}
 
 	public virtual void CheckDistanceFromPlayer(){
