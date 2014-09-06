@@ -40,7 +40,7 @@ public class Tentacle : MonoBehaviour {
 		transform.position = new Vector2 (initialX, transform.position.y);
 
 		if (goingUp){
-			rigidbody2D.AddRelativeForce (new Vector2 (0, moveUpForce));
+			rigidbody2D.AddForce (new Vector2 (0, moveUpForce));
 			if (transform.position.y > stopAtY) {
 				goingUp = false;
 				rigidbody2D.velocity = new Vector2(0,0);
@@ -48,7 +48,7 @@ public class Tentacle : MonoBehaviour {
 		}
 
 		if(goingDown){
-			rigidbody2D.AddRelativeForce (new Vector2 (0, -moveUpForce));
+			rigidbody2D.AddForce (new Vector2 (0, -moveUpForce));
 			if(transform.position.y < initialY){
 				goingDown = false;
 				rigidbody2D.velocity = new Vector2(0,0);

@@ -425,10 +425,10 @@ public class Player : MonoBehaviour {
 		rigidbody2D.velocity = new Vector2 (0, 0);
 
 		if (distance > 0) {
-			rigidbody2D.AddRelativeForce(new Vector2(-300f, 500f));		
+			rigidbody2D.AddForce(new Vector2(-300f, 500f));		
 		}
 		else{
-			rigidbody2D.AddRelativeForce(new Vector2(300f, 500f));		
+			rigidbody2D.AddForce(new Vector2(300f, 500f));		
 		}
 	}
 

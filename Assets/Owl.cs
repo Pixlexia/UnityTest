@@ -50,7 +50,7 @@ public class Owl : Enemy {
 		}
 
 		if (flyUp) {
-			rigidbody2D.AddRelativeForce(new Vector2(0, flyUpSpeed));
+			rigidbody2D.AddForce(new Vector2(0, flyUpSpeed));
 		}
 	}
 

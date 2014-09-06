@@ -72,7 +72,7 @@ public class Boss1 : Boss {
 
 	void FlappingState(){
 		if(Player.EnemyCanActionPlayer())
-			GameObject.Find("player").gameObject.rigidbody2D.AddRelativeForce(new Vector2(dir * 20, 0));
+			GameObject.Find("player").gameObject.rigidbody2D.AddForce(new Vector2(dir * 20, 0));
 	}
 
 	public override void NextState(){
