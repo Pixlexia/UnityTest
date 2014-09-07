@@ -650,7 +650,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b252abf3bd0b64721995011cfcc2ec1b, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: b252abf3bd0b64721995011cfcc2ec1b, type: 2}
       propertyPath: orthographic size
@@ -740,6 +740,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &224417616
 Transform:
   m_ObjectHideFlags: 0
@@ -2110,12 +2111,12 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
   m_PrefabInternal: {fileID: 1581915706}
   m_GameObject: {fileID: 309498201}
-  m_LocalRotation: {x: .70710659, y: 0, z: 0, w: -.707106948}
+  m_LocalRotation: {x: .70710665, y: 0, z: 0, w: -.707107008}
   m_LocalPosition: {x: 14.7084379, y: 1.45347738, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
 --- !u!1 &399065903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2648,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
 --- !u!1 &551487742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,6 +2732,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!61 &551487746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2770,7 +2772,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!1001 &619886651
 Prefab:
   m_ObjectHideFlags: 0
@@ -2865,7 +2867,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!114 &621004520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3065,7 +3067,7 @@ Transform:
   - {fileID: 1086896072}
   - {fileID: 1767458155}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
 --- !u!1 &660034898
 GameObject:
   m_ObjectHideFlags: 0
@@ -3514,6 +3516,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!61 &743022507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3970,7 +3973,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 283588103d8174c1f8c23afc5482dc69, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 283588103d8174c1f8c23afc5482dc69, type: 2}
@@ -4700,6 +4703,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1207240119}
   - 212: {fileID: 1207240118}
+  - 114: {fileID: 1207240120}
   m_Layer: 0
   m_Name: portal
   m_TagString: Untagged
@@ -4741,6 +4745,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
+--- !u!114 &1207240120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207240117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d575c033e1a934598735d9c4d0dab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
 --- !u!1001 &1216524167
 Prefab:
   m_ObjectHideFlags: 0
@@ -4839,7 +4855,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 283588103d8174c1f8c23afc5482dc69, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 283588103d8174c1f8c23afc5482dc69, type: 2}
@@ -6025,12 +6041,12 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
   m_PrefabInternal: {fileID: 1863680391}
   m_GameObject: {fileID: 1266693068}
-  m_LocalRotation: {x: .70710659, y: 0, z: 0, w: -.707106948}
+  m_LocalRotation: {x: .70710665, y: 0, z: 0, w: -.707107008}
   m_LocalPosition: {x: 14.695591, y: -9.09531689, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!1 &1277177189
 GameObject:
   m_ObjectHideFlags: 0
@@ -6948,7 +6964,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!1001 &1496584861
 Prefab:
   m_ObjectHideFlags: 0
@@ -7047,7 +7063,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eb16c94e72db04588b4e808db19da1c1, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb16c94e72db04588b4e808db19da1c1, type: 2}
@@ -7288,7 +7304,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_LocalRotation.x
-      value: .70710659
+      value: .70710665
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_LocalRotation.y
@@ -7300,11 +7316,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -.707106948
+      value: -.707107008
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: looping
@@ -7559,6 +7575,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!61 &1657379249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7598,7 +7615,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1001 &1691876016
 Prefab:
   m_ObjectHideFlags: 0
@@ -7935,7 +7952,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b6c3e2d9bf8bd4cb491f557cd97cc758, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b6c3e2d9bf8bd4cb491f557cd97cc758, type: 2}
@@ -8202,7 +8219,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_LocalRotation.x
-      value: .70710659
+      value: .70710665
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_LocalRotation.y
@@ -8214,11 +8231,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -.707106948
+      value: -.707107008
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 092d38083ad114eb0af284cb9ac32cbd, type: 2}
       propertyPath: looping
