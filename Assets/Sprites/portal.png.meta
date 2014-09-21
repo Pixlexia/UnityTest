@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 7761b8c0eb2e044d5b338835c4aeb46f
+guid: 9e41237fc0c8e4573aa6ec38f867a6a8
 TextureImporter:
   fileIDToRecycleName:
-    21300000: FINAL_SkyTemple
-    21300002: skytemple
+    21300000: Portal
+    21300002: portal
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -24,7 +24,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 4096
+  maxTextureSize: 1024
   textureSettings:
     filterMode: 0
     aniso: 1
@@ -39,7 +39,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 54
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []

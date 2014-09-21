@@ -25,7 +25,7 @@ public class Owl : Enemy {
 
 		GetDistanceFromPlayer ();
 
-		if (Mathf.Abs (xDistanceFromPlayer) < 2) {
+		if (Mathf.Abs (xDistanceFromPlayer) < 3) {
 			startFollowing = true;		
 		}
 
